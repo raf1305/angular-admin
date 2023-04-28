@@ -44,6 +44,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'Survey Form',
+    icon: 'edit-2-outline',
+    children: [
+      {
+        title: 'Create Form',
+        link: '/pages/survey/create'
+      }
+    ]
+  },
+  {
     title: 'Forms',
     icon: 'edit-2-outline',
     children: [

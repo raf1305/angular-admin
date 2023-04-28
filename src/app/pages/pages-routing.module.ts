@@ -29,6 +29,11 @@ const routes: Routes = [{
         .then(m => m.FormsModule),
     },
     {
+      path: 'survey',
+      loadChildren: () => import('./surveyjs/survey.module')
+        .then(m => m.SurveyModule),
+    },
+    {
       path: 'ui-features',
       loadChildren: () => import('./ui-features/ui-features.module')
         .then(m => m.UiFeaturesModule),
