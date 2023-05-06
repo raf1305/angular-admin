@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SurveyComponent } from './survey.component';
 import { SurveyCreatorComponent } from './survey-creator/survey-creator.component';
+import { SurveyFormComponent } from './survey-form/survey-form.component';
 
 const routes: Routes = [
     {
@@ -11,7 +12,11 @@ const routes: Routes = [
             {
                 path: 'create',
                 component: SurveyCreatorComponent,
-            }
+            },
+            {
+              path: 'form',
+              component: SurveyFormComponent,
+          }
         ]
     }
 ];

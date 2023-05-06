@@ -4,6 +4,8 @@ import { SurveyRoutingModule } from './survey-routing.module';
 import { SurveyCreatorComponent } from './survey-creator/survey-creator.component';
 import { SurveyCreatorModule } from 'survey-creator-angular';
 import { SurveyModule as SurveyLibraryModule} from "survey-angular-ui";
+import { SurveyListComponent } from './survey-list/survey-list.component';
+import { SurveyFormComponent } from './survey-form/survey-form.component';
 
 @NgModule({
     imports: [
@@ -13,7 +15,9 @@ import { SurveyModule as SurveyLibraryModule} from "survey-angular-ui";
     ],
     declarations: [
         SurveyComponent,
-        SurveyCreatorComponent
+        SurveyCreatorComponent,
+        SurveyListComponent,
+        SurveyFormComponent
     ]
 })
 export class SurveyModule { }

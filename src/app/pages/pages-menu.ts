@@ -50,6 +50,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Create Form',
         link: '/pages/survey/create'
+      },
+      {
+        title: 'Preview Form',
+        link: '/pages/survey/form'
       }
     ]
   },
